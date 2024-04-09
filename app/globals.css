@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    --background-color: #EDF6F9;
+    --text-color: #161616;
+    --grid-background-color: #F0F0F0;
+    --missing-letter-color: gray;
+    --partial-letter-color: rgb(187, 187, 74);
+    --correct-letter-color: green;
+
+    --error-text-color: red;
+    --error-background-color: #FFD2D2;
+
+    --button-text-color: black;
+    --button-background-color: #FFDDD2;
+    --button-border-color: #161616;
+    --button-active-color: #E29578;
+
+    --nav-background-color: #006D77;
+    --nav-background-color-hover: rgb(218, 55, 55);
+    --nav-text-color: white;
+    --nav-text-color-hover: white;
+
+    margin: 0;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark
+{
+    --background-color: #121212;
+    --text-color: rgb(238, 226, 226);
+    --grid-background-color: #1a202c;
+
+    --missing-letter-color: gray;
+    --partial-letter-color: rgb(175, 175, 40);
+    --correct-letter-color: green;
+
+    --error-text-color: red;
+    --error-background-color: #FFD2D2;
+
+    --button-text-color: #1a202c;
+    --button-background-color: #ffb2ff;
+    --button-border-color: #323439;
+    --button-active-color: #b64fc8;
+
+    --nav-background-color: #1e1e1e;
+    --nav-text-color: white;
+    --nav-background-color-hover: white;
+    --nav-text-color-hover: white;
+}

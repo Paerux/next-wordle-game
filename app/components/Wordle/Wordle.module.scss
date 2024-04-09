@@ -1,0 +1,66 @@
+.wordle
+{
+    min-height: 100vh;
+    padding: 20px;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.wordleContainer
+{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 25px;
+    margin: 0 auto;
+    align-items: center;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.result
+{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+
+
+.error
+{
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lengthButton
+{
+    width: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--button-background-color);
+    margin-right: 20px;
+    color: var(--button-text-color);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover
+    {
+        background-color: var(--button-active-color);
+        cursor: pointer;
+    }
+}
+
+.title
+{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-color);
+}

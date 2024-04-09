@@ -1,0 +1,20 @@
+.nav
+{
+    background-color: var(--nav-background-color);
+
+    a
+    {
+        color: var(--nav-text-color);
+
+        &:hover
+        {
+            color: var(--nav-text-color-hover);
+            /* background-color: var(--nav-background-color-hover); */
+        }
+    }
+
+    span
+    {
+        color: var(--nav-text-color);
+    }
+}
