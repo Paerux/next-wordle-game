@@ -10,8 +10,8 @@ import { cookies } from "next/headers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hangman",
-  description: "Hangman game built with Next.js",
+  title: "Wordle",
+  description: "Wordle game built with Next.js",
 };
 
 export default function RootLayout({

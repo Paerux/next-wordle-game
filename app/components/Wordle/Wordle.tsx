@@ -59,7 +59,7 @@ export default function Wordle()
         setCheckingWord(true);
         try
         {
-            const response = await axios.get(`/api/wordCheck?word=${word}`, { withCredentials: true });
+            const response = await axios.get(`/api/checkWord?word=${word}`, { withCredentials: true });
             setCheckingWord(false);
             return response.data.wordExists;
         }
